@@ -1,0 +1,32 @@
+ext {
+
+    android = [
+            compileSdkVersion: 25,
+            buildToolsVersion: "26.0.2",
+            minSdkVersion    : 15,
+            targetSdkVersion : 19,
+            applicationId    : "com.zte9.esports",
+            versionCode      : 100,
+            versionName      : "1.0.0"
+
+    ]
+
+    dependencies = [
+            "gson"          : "com.google.code.gson:gson:2.2.4",
+            "support-v4"    : "com.android.support:support-v4:24.2.0",
+            "recyclerview"  : "com.android.support:recyclerview-v7:23.4.0",
+            "retrofit"      : 'com.squareup.retrofit2:retrofit:2.3.0',
+            "gson-converter": 'com.squareup.retrofit2:converter-gson:2.0.2',
+            "rxandroid"     : 'io.reactivex:rxandroid:1.2.0',
+            "rxjava"        : 'io.reactivex:rxjava:1.1.5',
+            "rxadapter"     : 'com.squareup.retrofit2:adapter-rxjava:2.0.2',
+            "logging"       : 'com.squareup.okhttp3:logging-interceptor:3.5.0',
+            "app_compat"    : 'com.android.support:app_compat:23.4.0',
+            "okio"          : 'com.squareup.okio:okio:1.14.1',
+            "okhttp"        : 'com.squareup.okhttp3:okhttp:3.10.0',
+            "Timber"        : 'com.jakewharton.timber:timber:4.7.0',
+            "eventbus"      : 'org.greenrobot:eventbus:3.1.1',
+            "glide"         : 'com.github.bumptech.glide:glide:3.6.1',
+    ]
+
+}
